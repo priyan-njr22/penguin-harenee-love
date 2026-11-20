@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For Harenee ❤️ | From Penquin</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="hearts-bg" aria-hidden="true"></div>
+  <header class="header">
+    <a class="brand" href="#home">🐧 <span>Penquin <i>&</i> Harenee</span></a>
+    <button class="menu-button" id="menuButton" aria-label="Open menu">☰</button>
+    <nav id="navigation">
+      <a href="#home">Home</a><a href="#story">Our Story</a><a href="#memories">Memories</a>
+      <a href="#quiz">Love Quiz</a><a href="#song">Our Song</a><a href="#proposal" class="nav-special">The Question 💍</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">A LITTLE SURPRISE MADE WITH LOVE</p>
+        <h1>For you,<br><em>Harenee.</em></h1>
+        <p class="intro">Some people make ordinary days feel magical. You are that magic in my life.</p>
+        <a class="button primary" href="#story">Open our little story <span>♥</span></a>
+      </div>
+      <div class="hero-photo"><img src="media/couple_photo.jpg" alt="A romantic anime-style picture of a couple"><span class="photo-label">my favourite person ✨</span></div>
+      <div class="hero-bottom">MADE WITH ALL MY HEART · FROM PENQUIN 🐧</div>
+    </section>
+
+
+    <div class="ticker"><span>♥ YOU ARE MY FAVOURITE PERSON ♥ MY HAPPINESS ♥ MY LITTLE WORLD ♥ YOU ARE MY FAVOURITE PERSON ♥</span></div>
+
+
+    <section class="section story" id="story">
+      <div class="section-heading"><div><p class="eyebrow">CHAPTER ONE</p><h2>My favourite<br><em>kind of forever.</em></h2></div><p class="section-intro">This little website is not just a page. It's a tiny place where I put some feelings that are hard to fit into a message.</p></div>
+      <div class="story-card"><div class="story-symbol">♡</div><p>Harenee, you make my world feel softer, brighter and a little more beautiful. Even the simple things feel special when I imagine sharing them with you. If this page makes you smile even once, it has already done what I hoped.</p><p class="signature">— Your Penquin 🐧</p></div>
+    </section>
+
+
+    <section class="section memories" id="memories">
+      <div class="section-heading"><div><p class="eyebrow">CHAPTER TWO</p><h2>A little memory<br><em>to keep.</em></h2></div><p class="section-intro">One picture, a thousand feelings. I wish I could save every beautiful moment in a little box like this.</p></div>
+      <div class="memory-frame"><img src="media/couple_photo.jpg" alt="Our special couple picture"><div class="memory-caption">“In a world full of moments, you are my favourite one.”</div></div>
+    </section>
+
+
+    <section class="section letter-section" id="letter">
+      <div class="letter"><p class="eyebrow">A LETTER FOR YOU</p><h2>Dear Harenee, 💌</h2><p>I don't know if words can perfectly explain how much you mean to me, but I wanted to try. You make me smile in ways I don't always know how to explain. I love the thought of sharing silly moments, long conversations, little adventures and peaceful days with you.</p><p>Thank you for being you. If I could make one wish, it would be to keep making beautiful memories together—one day, one laugh and one little moment at a time.</p><p class="letter-end">With love,<br><strong>Your Penquin 🐧</strong></p></div>
+    </section>
+
+
+    <section class="section quiz-section" id="quiz">
+      <div class="section-heading"><div><p class="eyebrow">CHAPTER THREE · A LITTLE GAME</p><h2>How well do you<br><em>know Penquin?</em></h2></div><p class="section-intro">Let's see if you know your favourite penguin. Pick an answer and see what he says! 🐧</p></div>
+      <div class="quiz-box"><div class="quiz-progress"><span id="quizProgress">QUESTION 1 / 10</span><div class="progress-track"><div id="progressBar"></div></div></div><h3 id="questionText">Loading question...</h3><div id="answerOptions" class="options"></div><p id="quizFeedback" aria-live="polite"></p><button id="nextQuestion" class="button primary" hidden>Next question →</button><div id="quizComplete" hidden><h3>Quiz complete! 🥹</h3><p>You just made your Penquin smile. The biggest question is still waiting below...</p><a class="button primary" href="#proposal">Go to the surprise 💍</a></div></div>
+    </section>
+
+
+    <section class="section media-section" id="song">
+      <div class="section-heading"><div><p class="eyebrow">CHAPTER FOUR · OUR SOUNDTRACK</p><h2>A song for<br><em>this feeling.</em></h2></div><p class="section-intro">A song that reminds me of the kind of beautiful feeling I wanted this little surprise to carry.</p></div>
+      <div class="media-card song-card"><div class="record">♫</div><div><h3>Aradhya</h3><p>Sid Sriram · Our song 🎶</p><audio controls preload="metadata"><source src="media/aradhya.mp3" type="audio/mpeg">Your browser cannot play this audio file.</audio><small>Add your audio file named <b>aradhya.mp3</b> inside the media folder to enable playback. (The song file hasn't been uploaded yet.)</small></div></div>
+      <div class="media-card video-card"><div><p class="eyebrow">A LITTLE VIDEO SURPRISE</p><h3>Just for you, Harenee ❤️</h3><p>Press play when you're ready. I made this little moment just for you.</p></div><video controls preload="metadata" poster="media/couple_photo.jpg"><source src="media/proposal_video.mp4" type="video/mp4">Your browser does not support the video element.</video></div>
+    </section>
+
+
+    <section class="proposal-section" id="proposal">
+      <div class="proposal-content"><p class="eyebrow">THE LAST CHAPTER · THE BIG QUESTION</p><div class="proposal-heart">♥</div><h2>Harenee,<br>will you be my<br><em>forever?</em></h2><p class="proposal-note">No matter what, you are someone very special to me. I made this with a hopeful heart and a big smile.</p><div class="proposal-buttons"><button class="button yes-button" id="yesButton">YES! ❤️</button><button class="button shy-button" id="shyButton">I need a hug first 🥹</button></div><div id="yesMessage" class="yes-message" hidden>🥹❤️ You just made your Penquin the happiest! Here's to more smiles, memories, and beautiful moments together. <span>🐧💗</span></div></div>
+    </section>
+  </main>
+  <footer><p>Made with love, one little heart at a time. ❤️</p><p>— Penquin 🐧</p><a href="#home">Back to the beginning ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
